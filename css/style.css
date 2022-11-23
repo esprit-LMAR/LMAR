@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*?------------------------home----------------------------*/
+main{
+    min-height: 100vh;
+    background-image: url("../res/index.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}
+main h2{
+    font-size: 90px;
+    z-index: 5;
+}
+main h3{
+    font-size: 40px;
+    z-index: 5;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 4;
+}
+
+header img{
+    width: 150px;
+}
+
+.links{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 2%;
+    transition: .1s;
+}
+
+.links a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.cover{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    top: 0vh;
+    opacity: .3;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    margin: 50px 0;
+}
+
+
+
+/*?-------------------about------------------------------*/
+
+.about-main{
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    font-weight: 900;
+}
+
+.spe-links{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.spe-links a{
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 2%;
+    transition: .1s;
+}
+
+.spe-links a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.about-main ul li {
+    margin-left: 150px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-main h2{
+    margin-top: 200px;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.lmar{
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+}
+
+.name{
+    color: blueviolet;
+}
+
+/*!------------------donnation-------------------*/
+
+.donnation-main{
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+}
+
+.donnation-main h2{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.donnation-main img{
+    width: 280px;
+    cursor: pointer;
+}
+
+.mont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mont div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 235px;
+    margin: 18px;
+}
+
+.mont div p{
+    border: 2px solid black;
+    padding: 4%;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.mont div p:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.mont input{
+    width: 235px;
+    padding: 4% 0;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/*TODO--------------contact--------------------*/
+
+.contact-main{
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+}
+
+.contact-main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-main form input{
+    width: 340px;
+    height: 34px;
+    margin: 5px 0;
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.contact-main form textarea{
+    width: 340px;
+    height: 134px;
+    margin: 5px 0;
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid black;
+    resize: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.contact-main h2{
+    font-size: 40px;
+}
+
+.contact-main form p{
+    background-color: rgb(0, 196, 0);
+    width: 357px;
+    text-align: center;
+    padding: 4% 0;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.contact-main form p:hover{
+    background-color: rgb(0, 255, 0);
+}
+
+/*!-----------------projet-------------------*/
+
